@@ -181,7 +181,7 @@ ul li a:hover{
     left: 60%;
     transform: translate(-55%);
     bottom: 0;
-    border-radius: 150px;
+    border-radius: 250px;
 }
 .image:hover .myimage{
     left: 55%;
@@ -345,8 +345,9 @@ html{
   border-radius: 200px;
   overflow: hidden;
   box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+  
 }
-.about-image{
+.about-image{ 
   width: 100%;
   height: 90%;
   border-radius: 200px;
@@ -355,9 +356,12 @@ html{
   transform: scale(1.02);
   transition: transform .4s ease;
 }
+
+
 .about-image-wrap:hover .about-image{
   transform: scale(1.06);
 }
+
 .about-content h2{
   font-size: 36px;
   color: rgba(36,32,30);
